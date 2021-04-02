@@ -2,6 +2,7 @@ body{
     width: 1200px;
     background-color: rgb(34, 39, 42);
      font-family: 'Quicksand', sans-serif;
+     
 }
 .input-display{
     width: auto;
@@ -33,7 +34,9 @@ body{
     top: 50%;
     transform: translate(-50%, -50%);  
     background-color: #fff;  
-     box-shadow: 3px 5px 30px 25px black; 
+    box-shadow: 1px 1px 35px 33px rgb(18, 18, 21); 
+    border-radius: 10px;
+    overflow: hidden;
 } 
 .batton{
      border-left: 0.1px rgba(128, 127, 128, 0.2) solid ; 
@@ -45,17 +48,29 @@ body{
      justify-content: center;
      align-items: center;
      background-color: rgb(31, 35, 38);
+     transition: background-color .35s;
      
 }
-.row :last-child {
-    border-right: 0.1px rgba(128, 127, 128, 0.2) solid;
+.batton-parpol {
     background-color:rgb(95, 75, 182);
+    border-right: 1px solid rgba(95, 75, 182, 0.2);
 }
 .row:last-child .batton{
-    border-bottom:0.1px rgba(128, 127, 128, 0.2) solid ;
+    border-bottom:1px rgba(128, 127, 128, 0.2) solid ;
     
 }
-#unick{
+.batton-yellow{
     background-color:rgb(255, 194, 1);
     color: black;
+    border-right:1px rgba(255, 194, 1, 0.2) solid;
+}
+.batton:hover{
+    background-color:rgb(18, 21, 23);
+    cursor: pointer;
+}
+.batton-parpol:hover{
+    background-color: rgb(75, 49, 184);
+}
+.batton-yellow:hover{
+    background-color:rgb(251, 212, 90);
 }
