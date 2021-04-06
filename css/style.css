@@ -1,10 +1,9 @@
 body{
     width: 1200px;
     background-color: rgb(34, 39, 42);
-     font-family: 'Quicksand', sans-serif;
-     
-}
-.input-display{
+    font-family: 'Quicksand', sans-serif;
+}    
+.input-operand{
     width: auto;
     height: 40px;
     /* background-color:white; */
@@ -13,7 +12,7 @@ body{
     padding-right: 15px;
     padding-top: 13px;    
 }
-.output-display{
+.output-operand{
     width: auto;
     height: 52px;
     /* background-color: white; */
@@ -38,7 +37,7 @@ body{
     border-radius: 10px;
     overflow: hidden;
 } 
-.batton{
+.button{
      border-left: 0.1px rgba(128, 127, 128, 0.2) solid ; 
      border-top: 0.1px rgba(128, 127, 128, 0.2) solid;
      font-size: 17px;
@@ -51,26 +50,26 @@ body{
      transition: background-color .35s;
      
 }
-.batton-parpol {
+.button-parpol {
     background-color:rgb(95, 75, 182);
     border-right: 1px solid rgba(95, 75, 182, 0.2);
 }
-.row:last-child .batton{
+.row:last-child .button{
     border-bottom:1px rgba(128, 127, 128, 0.2) solid ;
     
 }
-.batton-yellow{
+.button-yellow{
     background-color:rgb(255, 194, 1);
     color: black;
     border-right:1px rgba(255, 194, 1, 0.2) solid;
 }
-.batton:hover{
+.button:hover{
     background-color:rgb(18, 21, 23);
-    cursor: pointer;
+    cursor:pointer;
 }
-.batton-parpol:hover{
+.button-parpol:hover{
     background-color: rgb(75, 49, 184);
 }
-.batton-yellow:hover{
+.button-yellow:hover{
     background-color:rgb(251, 212, 90);
 }
