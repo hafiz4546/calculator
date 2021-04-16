@@ -3,7 +3,7 @@ body{
     background-color: rgb(34, 39, 42);
     font-family: 'Quicksand', sans-serif;
 }    
-.input-operand{
+.display1{
     width: auto;
     height: 40px;
     /* background-color:white; */
@@ -12,7 +12,7 @@ body{
     padding-right: 15px;
     padding-top: 13px;    
 }
-.output-operand{
+.display2{
     width: auto;
     height: 52px;
     /* background-color: white; */
