@@ -59,6 +59,10 @@ equalEl.addEventListener('click',(e) => {
     operationClicked = false;
 })
 
+
+
+
+
 clearEl.addEventListener('click',(e) => {
     inp.textContent = '';
     out.textContent = '';
